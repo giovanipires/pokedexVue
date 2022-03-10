@@ -20,9 +20,10 @@ defineProps({
 <style scoped>
 @import "@/assets/normalize.css";
 .header {
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
+  height: 300px;
 }
 .logo {
   height: 47px;
@@ -48,7 +49,7 @@ defineProps({
   border-radius: 10px;
   border-style: none;
   height: 50px;
-  margin-top: 137px;
+  margin-top: 167px;
   position: fixed;
   width: 600px;
 }
